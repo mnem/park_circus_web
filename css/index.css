@@ -1,0 +1,139 @@
+@font-face {
+	font-family: "Myriad Pro";
+	src: local("Myriad Pro"), url("../font/myriadwebpro.ttf");
+}
+body {
+	font-family: "Myriad Pro", "Trebuchet MS", Helvetica, sans-serif;
+	background-color: black;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+#placard {
+	margin: 32px auto 8px auto;
+	padding: 0 0 0 0;
+	width: 800px;
+	height: 600px;
+	background-color: black;
+	position: relative;
+	display: block;
+	overflow: hidden;
+	background-image: url("../img/placard-back.png");
+	background-repeat: no-repeat;
+}
+#logo {
+	margin: 120px auto 0 auto;
+	padding: 0 0 0 0;
+	position: relative;
+	display: block;
+	overflow: hidden;
+	width: 458px;
+	height: 84px;
+}
+#logo-b {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	position: absolute;
+	right: 10px;
+	top: 0px;
+}
+#logo-a {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	position: absolute;
+	right: 0px;
+	top: 18px;
+}
+#download-message {
+	margin: 55px auto 0 auto;
+	font-size: 22px;
+	letter-spacing: 0.2em;
+}
+#email {
+	margin: auto auto 24px auto;
+    padding: 0;
+	width: 219px;
+	height: 26px;
+	position: relative;
+	background-image: url("../img/input.png");
+	background-repeat: no-repeat;
+}
+#emailaddress {
+	font-family: "Myriad Pro", sans-serif;
+	font-style: italic;
+	font-size: 14px;
+	width: 216px;
+	height: 26px;
+    margin: 2px 0 0 1px;
+    padding: 0;
+	background-color: transparent;
+	border-style: none;
+	text-align: center;
+	letter-spacing: 0.2em;
+}
+.email-valid-indicator {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	position: absolute;
+	top: 0;
+	left: 224px;
+}
+#button {
+	margin: auto auto auto auto;
+	width: 109px;
+	height: 19px;
+	background-image: url("../img/button.png");
+	background-repeat: no-repeat;
+}
+#button a:link, a:visited, a:hover, a:active {
+	padding-top: 2px;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	color: white;
+	display: block;
+	border-style: none;
+}
+#spiel {
+	margin: 60px auto auto auto;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+}
+#linkbar {
+	margin: 24px auto auto auto;
+    width: 256px;
+	text-align: center;
+}
+#linkbar img, a:link, a:visited, a:hover, a:active {
+    margin: 0;
+    padding: 0;
+	border-style: none;
+}
+#linkbar ul {
+    float: left;
+    width: 256px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#linkbar li {
+    margin: 0 16px 0 16px;
+    padding: 0;
+    float: left;
+}
+.make-see-through {
+	opacity:0.5;
+	filter:alpha(opacity=50);
+}
+.emailaddress-prompt {
+	color: gray;
+}
+.emailaddress-valid {
+	color: white;
+}
+.emailaddress-invalid {
+	color: white;
+}
+.hidden {
+	visibility: hidden;
+}
