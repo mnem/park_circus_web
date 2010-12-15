@@ -3,8 +3,8 @@
 This Example shows how to Subscribe a New Member to a List using the MCAPI.php
 class and do some basic error checking.
 **/
-require_once 'inc/MCAPI.class.php';
-require_once 'inc/config.inc.php'; //contains apikey
+require_once 'MCAPI.class.php';
+require_once 'config.inc.php'; //contains apikey
 
 $api = new MCAPI($apikey);
 $api->useSecure(true);
