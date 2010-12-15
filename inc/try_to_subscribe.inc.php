@@ -10,7 +10,7 @@ $api = new MCAPI($apikey);
 $api->useSecure(true);
 
 $email = $_REQUEST['e'];
-
+echo "$listId: " + $listId + "\n";
 // By default this sends a confirmation email - you will not see new members
 // until the link contained in it is clicked!
 $retval = $api->listSubscribe( $listId, $my_email );
