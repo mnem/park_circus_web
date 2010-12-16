@@ -18,7 +18,9 @@
 		<img id="logo-b" src="img/parkcircuslogo-b.png" alt="Park Circus" width="437" height="63">
 		<img id="logo-a" src="img/parkcircuslogo-a.png" alt="Park Circus" width="458" height="66">
 	</div>
-	<div id="download-message"><p>Thanks! If the track doesn't automatically download in a few seconds, you can download it directly by clicking: <a href="https://s3-eu-west-1.amazonaws.com/park-circus-home/Home+-+Park+Circus.zip">Home.zip - 6MB</a></p></div>
+	<div id="download-message"><p>Thanks!</p>
+		<p>If the track doesn't automatically download in a few seconds, you can download it directly:<br><a href="https://s3-eu-west-1.amazonaws.com/park-circus-home/Home+-+Park+Circus.zip">Home.zip - 6MB</a></p>
+	</div>
 	<div id="sharing">
 		<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="http://www.parkcircusmusic.com/" layout="box_count" show_faces="true" width="60" font="trebuchet ms" colorscheme="light"></fb:like>
 	</div>

@@ -28,7 +28,7 @@ function validate_mail() {
 function submit_mail_and_fetch_track() {
 	var mail_address = $("#emailaddress").val();
 	if(email_address_valid(mail_address)) {
-		alert("This is where you'd get a download");
+		window.location = encodeURI("download.php?e=" + mail_address);
 	}
 }
 
