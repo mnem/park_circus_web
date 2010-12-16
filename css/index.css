@@ -121,6 +121,12 @@ body {
     padding: 0;
     float: left;
 }
+#sharing {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 256px;
+	height: 24px;
+}
 .make-see-through {
 	opacity:0.5;
 	filter:alpha(opacity=50);
