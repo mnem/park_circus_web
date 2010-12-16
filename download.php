@@ -20,9 +20,6 @@
 	</div>
 	<div id="download-message"><p>Thanks!</p></div>
 	<div id="spiel"><p>If the track doesn't download automatically, you can download it directly:</p><p><a href="https://s3-eu-west-1.amazonaws.com/park-circus-home/Home+-+Park+Circus.zip">Home.zip - 6MB</a></p></div>
-	<div id="sharing">
-		<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="http://www.parkcircusmusic.com/" layout="box_count" show_faces="true" width="60" font="trebuchet ms" colorscheme="light"></fb:like>
-	</div>
 	<div id="linkbar">
 		<ul id="icon-row">
 			<li><a href="http://www.facebook.com/parkcircusmusic"><img src="img/logo-fb.png" alt="Facebook" id="logo-fb" width="24" height="24"></a></li>
