@@ -10,17 +10,17 @@ $api = new MCAPI($apikey);
 $api->useSecure(true);
 
 $email = $_REQUEST['e'];
-echo "$listId: " + $listId + "\n";
+
 // By default this sends a confirmation email - you will not see new members
 // until the link contained in it is clicked!
-$retval = $api->listSubscribe( $listId, $my_email );
+$retval = $api->listSubscribe( $listId, $email );
 
 if ($api->errorCode){
-	echo "Unable to load listSubscribe()!\n";
-	echo "\tCode=".$api->errorCode."\n";
-	echo "\tMsg=".$api->errorMessage."\n";
+	echo "Unable to load listSubscribe()!<br>";
+	echo "\tCode=".$api->errorCode."<br>";
+	echo "\tMsg=".$api->errorMessage."<br>";
 } else {
-    echo "Subscribed - look for the confirmation email!\n";
+    echo "Subscribed - look for the confirmation email!<br>";
 }
 
 ?>
