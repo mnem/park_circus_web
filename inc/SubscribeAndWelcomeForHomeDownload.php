@@ -51,6 +51,7 @@ $DEBUG=false;
 function joinList($listId, $email, $sendWelcome)
 {
 	global $CHIMP;
+	global $DEBUG;
 
 	$mergeVars = array ();
 	$emailType='html';
