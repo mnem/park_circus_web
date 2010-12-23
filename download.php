@@ -7,7 +7,7 @@
 	<meta name="generator" content="BBEdit 9.6" />
 	<link rel="stylesheet" href="css/index.css" type="text/css">
 	<script src="js/index.js" type="text/javascript"></script>
-    <META HTTP-EQUIV=Refresh CONTENT="1;URL=https://s3-eu-west-1.amazonaws.com/park-circus-home/Home+-+Park+Circus.zip">
+    <METAx HTTP-EQUIV=Refresh CONTENT="1;URL=https://s3-eu-west-1.amazonaws.com/park-circus-home/foo.zip">
 </head>
 <body>
 
