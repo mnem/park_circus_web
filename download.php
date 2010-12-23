@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<?php include("inc/try_to_subscribe.inc.php"); ?>
+<?php include("inc/SubscribeAndWelcomeForHomeDownload.php"); ?>
 
 <div id="placard">
 	<div id="logo">
