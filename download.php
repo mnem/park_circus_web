@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Park Circus - Home - Download</title>
+	<title>Park Circus &mdash; &lsquo;Carry On&rsquo; free download</title>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
 	<meta name="generator" content="BBEdit 9.6" />
 	<link rel="stylesheet" href="css/index.css" type="text/css">
 	<script src="js/index.js" type="text/javascript"></script>
-    <METAx HTTP-EQUIV=Refresh CONTENT="1;URL=https://s3-eu-west-1.amazonaws.com/park-circus-home/foo.zip">
+    <META HTTP-EQUIV=Refresh CONTENT="1;URL=http://s3-eu-west-1.amazonaws.com/park-circus-tracks/Carry_On_-_Park_Circus.zip">
 </head>
 <body>
 
@@ -19,7 +19,7 @@
 		<img id="logo-a" src="img/parkcircuslogo-a.png" alt="Park Circus" width="458" height="66">
 	</div>
 	<div id="download-message"><p>Thanks!</p></div>
-	<div id="spiel"><p>If the track doesn't download automatically, you can download it directly:</p><p><a href="https://s3-eu-west-1.amazonaws.com/park-circus-home/Home+-+Park+Circus.zip">Home.zip - 6.1MB</a></p></div>
+	<div id="spiel"><p>If the track doesn't download automatically, you can download it directly:</p><p><a href="http://s3-eu-west-1.amazonaws.com/park-circus-tracks/Carry_On_-_Park_Circus.zip">Carry_On_-_Park_Circus.zip - 4.7MB</a></p></div>
 	<div id="linkbar">
 		<ul id="icon-row">
 			<li><a href="http://www.facebook.com/parkcircusmusic"><img src="img/logo-fb.png" alt="Facebook" id="logo-fb" width="24" height="24"></a></li>

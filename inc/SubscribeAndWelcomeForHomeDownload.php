@@ -34,12 +34,12 @@ require_once 'GlobalConfiguration.php';
 // Park Circus
 $LIST_ID = '4b1d551684';
 $DOWNLOAD_LIST_ID = '';
-$CAMPAIGN_ID = '';
+$CAMPAIGN_ID = 'bb652a8a32';
 
 // Noise & Heat
 // $LIST_ID = 'd5ab9a68b7';
 // $DOWNLOAD_LIST_ID = '1e7247edb0';
-// $CAMPAIGN_ID = '';
+// $CAMPAIGN_ID = 'df790ef2b8';
 
 $DEBUG=false;
 
@@ -73,7 +73,7 @@ function joinList($listId, $email, $sendWelcome)
 	{
 		if ($CHIMP->errorCode)
 		{
-			echo "Unable to load listSubscribe()!<br>";
+			echo "Unable to execute listSubscribe()!<br>";
 			echo "\tCode=".$CHIMP->errorCode."<br>";
 			echo "\tMsg=".$CHIMP->errorMessage."<br>";
 		}
@@ -84,16 +84,40 @@ function joinList($listId, $email, $sendWelcome)
 	}
 }
 
+function sendTransactionalCampaign($campaignId)
+{
+	global $CHIMP;
+	global $DEBUG;
+
+	// Join the main list
+	$retval = $CHIMP->campaignSendNow($campaignId);
+
+	if($DEBUG)
+	{
+		if ($CHIMP->errorCode)
+		{
+			echo "Unable to execute campaignSendNow()!<br>";
+			echo "\tCode=".$CHIMP->errorCode."<br>";
+			echo "\tMsg=".$CHIMP->errorMessage."<br>";
+		}
+		else
+		{
+			echo "Campaign sent - look for the email!<br>";
+		}
+	}
+}
+
 
 if(isset($_REQUEST['e']))
 {
 	// Join the main mailing list
-	joinList($LIST_ID, $_REQUEST['e'], true);
+	joinList($LIST_ID, $_REQUEST['e'], false);
 
 	// Join the transactional mailing list
-//	joinList($DOWNLOAD_LIST_ID, $_REQUEST['e'], false);
+	//joinList($DOWNLOAD_LIST_ID, $_REQUEST['e'], false);
 
 	// Send the download campaign email
+	sendTransactionalCampaign($CAMPAIGN_ID);
 }
 elseif($DEBUG)
 {

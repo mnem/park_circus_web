@@ -95,12 +95,12 @@ body {
 	border-style: none;
 }
 #spiel {
-	margin: 60px auto auto auto;
+	margin: 20px auto auto auto;
 	font-size: 12px;
 	letter-spacing: 0.1em;
 }
 #linkbar {
-	margin: 24px auto auto auto;
+	margin: 45px auto auto auto;
     width: 256px;
 	text-align: center;
 }
@@ -122,7 +122,7 @@ body {
     float: left;
 }
 #sharing {
-	margin: 0 auto 0 auto;
+	margin: 24px auto 0 auto;
 	padding: 0 0 0 0;
 	width: 256px;
 	height: 24px;
