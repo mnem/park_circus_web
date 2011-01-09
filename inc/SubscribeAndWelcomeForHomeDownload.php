@@ -34,7 +34,7 @@ require_once 'GlobalConfiguration.php';
 // Park Circus
 $LIST_ID = '4b1d551684';
 $DOWNLOAD_LIST_ID = '';
-$CAMPAIGN_ID = 'bb652a8a32';
+$CAMPAIGN_ID = 'db5566f17d';
 
 // Noise & Heat
 // $LIST_ID = 'd5ab9a68b7';
