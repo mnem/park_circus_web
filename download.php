@@ -4,7 +4,22 @@
 	<meta charset="utf-8" />
 	<title>Park Circus &mdash; &lsquo;Carry On&rsquo; free download</title>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+
 	<meta name="generator" content="BBEdit 9.6" />
+
+	<meta property="og:site_name" content="Park Circus Music" />
+	<meta property="og:type" content="band" />
+	<meta property="og:url" content="http://parkcircus.noiseandheat.com/" />
+
+	<meta name="medium" content="audio" />
+	<meta property="og:title" content="‘Carry On’ by Park Circus" />
+	<meta property="og:description" content="Download ‘Carry On’ by Park Circus for FREE!" />
+	<meta property="og:image" content="http://parkcircus.noiseandheat.com/img/og_thumb.png" />
+	<meta property="og:audio" content="http://s3-eu-west-1.amazonaws.com/park-circus-tracks/Carry+On+-+Park+Circus.mp3" />
+	<meta property="og:audio:title" content="Carry On" />
+	<meta property="og:audio:artist" content="Park Circus" />
+	<meta property="og:audio:type" content="audio/mpeg" />
+
 	<link rel="stylesheet" href="css/index.css" type="text/css">
 	<script src="js/index.js" type="text/javascript"></script>
     <META HTTP-EQUIV=Refresh CONTENT="1;URL=http://s3-eu-west-1.amazonaws.com/park-circus-tracks/Carry_On_-_Park_Circus.zip">
