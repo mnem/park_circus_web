@@ -34,6 +34,10 @@
 		<img id="logo-a" src="img/parkcircuslogo-a.png" alt="Park Circus" width="458" height="66">
 	</div>
 	<div id="download-message"><p>Thanks!</p></div>
+	<div id="sharing">
+		<a name="fb_share"></a>
+		<script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
+	</div>
 	<div id="spiel"><p>If the track doesn't download automatically, you can download it directly:</p><p><a href="http://s3-eu-west-1.amazonaws.com/park-circus-tracks/Carry_On_-_Park_Circus.zip">Carry_On_-_Park_Circus.zip - 4.7MB</a></p></div>
 	<div id="linkbar">
 		<ul id="icon-row">
