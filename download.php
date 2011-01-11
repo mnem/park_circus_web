@@ -9,12 +9,12 @@
 
 	<meta property="og:site_name" content="Park Circus Music" />
 	<meta property="og:type" content="band" />
-	<meta property="og:url" content="http://parkcircus.noiseandheat.com/" />
+	<meta property="og:url" content="http://parkcircusmusic.com/" />
 
 	<meta name="medium" content="audio" />
 	<meta property="og:title" content="‘Carry On’ by Park Circus" />
 	<meta property="og:description" content="Download ‘Carry On’ by Park Circus for FREE!" />
-	<meta property="og:image" content="http://parkcircus.noiseandheat.com/img/og_thumb.png" />
+	<meta property="og:image" content="http://parkcircusmusic.com/img/og_thumb.png" />
 	<meta property="og:audio" content="http://s3-eu-west-1.amazonaws.com/park-circus-tracks/Carry+On+-+Park+Circus.mp3" />
 	<meta property="og:audio:title" content="Carry On" />
 	<meta property="og:audio:artist" content="Park Circus" />
